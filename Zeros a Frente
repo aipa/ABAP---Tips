@@ -1,0 +1,6 @@
+ DATA: v_char TYPE char10 VALUE '12345'.
+ 
+ SHIFT v_char RIGHT DELETING TRAILING space.
+ TRANSLATE v_char USING ' 0'.
+ 
+ WRITE: v_char.
